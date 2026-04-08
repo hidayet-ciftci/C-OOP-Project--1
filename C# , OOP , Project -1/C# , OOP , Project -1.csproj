@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dergi.cs" />
+    <Compile Include="Generic.cs" />
     <Compile Include="IKayitEdilebilir.cs" />
     <Compile Include="Kitap.cs" />
     <Compile Include="Kutuphane.cs" />

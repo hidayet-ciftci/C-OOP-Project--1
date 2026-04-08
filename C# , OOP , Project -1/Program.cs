@@ -25,9 +25,19 @@
                 K.AddMaterial(D1);
                 K.AddMaterial(k1);
                 K.addUye(U1);
-
+                // PascalCase -> KitapAdı
+                // CamelCase -> kitapAdı
                 K.ListMaterials();
                 K.ListUyes();
+
+                Generic<string> StringList = new Generic<string>();
+                StringList.Add("ahmet");
+                StringList.Add("Mehmet");
+                Generic<int> IntList = new Generic<int>();
+                IntList.Add(5);
+                IntList.Add(10);
+                StringList.Show();
+                IntList.Show();
             }
             catch (Exception ex)
             {
